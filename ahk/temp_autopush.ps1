@@ -3,4 +3,3 @@ $env:HOME = "C:\Users\Admin"
 config status
 config commit -m "auto commit"
 config push
-Start-Sleep -Seconds 60
