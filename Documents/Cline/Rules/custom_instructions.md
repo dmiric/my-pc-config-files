@@ -1,0 +1,4 @@
+- always give me commands for PS shell in one line
+- always use list_files instead of what's opened in VS code to check what files exist
+- when I mention logs or log files I mean a file all_logs.log in logs directory or if we are working on parsers then parser_logs.log 
+- always write whole code and use write_to_file
