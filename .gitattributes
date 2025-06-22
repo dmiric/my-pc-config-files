@@ -1,0 +1,47 @@
+# =========================================================================
+#  Default Behavior: Normalize all text files to LF for consistency
+# =========================================================================
+# This is the most important rule. It sets a safe default for everything.
+# Git will try to auto-detect if a file is text, and if so, it will
+# store it in the repository with LF (Unix/Linux) line endings.
+* text=auto eol=lf
+
+
+# =========================================================================
+#  Windows-Specific Files: Enforce CRLF line endings
+# =========================================================================
+# These files are specifically for Windows and should always have CRLF.
+*.bat        eol=crlf
+*.cmd        eol=crlf
+
+
+# =========================================================================
+#  Shell & Scripting Files: Enforce LF line endings
+# =========================================================================
+# These files MUST have LF endings to run correctly on Linux, macOS, or WSL.
+# This explicitly overrides the 'text=auto' default for safety.
+*.sh         text eol=lf
+*.ps1        text eol=lf
+*.lua        text eol=lf
+
+
+# =========================================================================
+#  Configuration & Markup Files: Enforce LF line endings
+# =========================================================================
+# It's best practice to keep these consistent with LF endings.
+*.xml        text eol=lf
+*.json       text eol=lf
+*.md         text eol=lf
+*.txt        text eol=lf
+*.env        text eol=lf
+.gitconfig   text eol=lf
+.keep        text eol=lf
+
+
+# =========================================================================
+#  History & Log Files: Treat as text, but don't force endings
+# =========================================================================
+# It's unusual to version control these, but if you do, this is a safe way.
+# The 'text' attribute ensures they aren't treated as binary.
+clink_history* text
+*.log          text
