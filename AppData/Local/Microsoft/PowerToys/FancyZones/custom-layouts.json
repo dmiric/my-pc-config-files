@@ -1,0 +1,90 @@
+{
+  "custom-layouts": [
+    {
+      "uuid": "{14F7082F-1FCD-420F-BD12-9CE6331E50DC}",
+      "name": "Mobile App Dev",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 3,
+        "rows-percentage": [
+          6744,
+          3256
+        ],
+        "columns-percentage": [
+          1646,
+          5567,
+          2787
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "show-spacing": false,
+        "spacing": 0,
+        "sensitivity-radius": 35
+      }
+    },
+    {
+      "uuid": "{F2008877-5DC4-48CB-A20A-9C49D3CCBB4B}",
+      "name": "Normal Dev",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [
+          6724,
+          3276
+        ],
+        "columns-percentage": [
+          7202,
+          2798
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "show-spacing": false,
+        "spacing": -10,
+        "sensitivity-radius": 0
+      }
+    },
+    {
+      "uuid": "{0414514B-D58D-41E3-B3FE-9B8D34526A5A}",
+      "name": "Default",
+      "type": "grid",
+      "info": {
+        "rows": 1,
+        "columns": 1,
+        "rows-percentage": [
+          10000
+        ],
+        "columns-percentage": [
+          10000
+        ],
+        "cell-child-map": [
+          [
+            0
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}

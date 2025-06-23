@@ -1,3 +1,4 @@
+#Requires AutoHotkey v1
 ; =================================================================
 ;     VIRTUAL DESKTOP SWITCH MONITOR (AUTOHOTKEY v1 - FINAL OPTIMIZED)
 ; =================================================================

@@ -1,0 +1,89 @@
+{
+  "applied-layouts": [
+    {
+      "device": {
+        "monitor": "AUS2780",
+        "monitor-instance": "5\u0026197e7451\u00260\u0026UID4352",
+        "monitor-number": 1,
+        "serial-number": "LBLMQS184951",
+        "virtual-desktop": "{25753348-FF70-456B-9C1C-5C8E8484255F}"
+      },
+      "applied-layout": {
+        "uuid": "{5D99BBE7-9BB8-4D39-8129-F9922ED200D0}",
+        "type": "blank",
+        "show-spacing": false,
+        "spacing": 0,
+        "zone-count": 0,
+        "sensitivity-radius": 0
+      }
+    },
+    {
+      "device": {
+        "monitor": "AUS2780",
+        "monitor-instance": "5\u0026197e7451\u00260\u0026UID4352",
+        "monitor-number": 1,
+        "serial-number": "LBLMQS184951",
+        "virtual-desktop": "{EFA7CA98-9836-42DA-A10B-C1E3CE16FFAC}"
+      },
+      "applied-layout": {
+        "uuid": "{F2008877-5DC4-48CB-A20A-9C49D3CCBB4B}",
+        "type": "custom",
+        "show-spacing": false,
+        "spacing": -10,
+        "zone-count": 3,
+        "sensitivity-radius": 25
+      }
+    },
+    {
+      "device": {
+        "monitor": "AUS2780",
+        "monitor-instance": "5\u0026197e7451\u00260\u0026UID4352",
+        "monitor-number": 1,
+        "serial-number": "LBLMQS184951",
+        "virtual-desktop": "{53956E0E-DF4F-465C-8BF0-F7099CB58902}"
+      },
+      "applied-layout": {
+        "uuid": "{14F7082F-1FCD-420F-BD12-9CE6331E50DC}",
+        "type": "custom",
+        "show-spacing": false,
+        "spacing": 0,
+        "zone-count": 3,
+        "sensitivity-radius": 35
+      }
+    },
+    {
+      "device": {
+        "monitor": "AUS2780",
+        "monitor-instance": "5\u0026197e7451\u00260\u0026UID4352",
+        "monitor-number": 1,
+        "serial-number": "LBLMQS184951",
+        "virtual-desktop": "{48E600C4-95B4-47C7-A598-E52E7BBBDB35}"
+      },
+      "applied-layout": {
+        "uuid": "{14F7082F-1FCD-420F-BD12-9CE6331E50DC}",
+        "type": "custom",
+        "show-spacing": false,
+        "spacing": 0,
+        "zone-count": 3,
+        "sensitivity-radius": 35
+      }
+    },
+    {
+      "device": {
+        "monitor": "AUS2780",
+        "monitor-instance": "1\u00268713bca\u00260\u0026UID0",
+        "monitor-number": 10,
+        "serial-number": "",
+        "virtual-desktop": "{25753348-FF70-456B-9C1C-5C8E8484255F}"
+      },
+      "applied-layout": {
+        "uuid": "{00000000-0000-0000-0000-000000000000}",
+        "type": "priority-grid",
+        "show-spacing": true,
+        "spacing": 16,
+        "zone-count": 3,
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}
