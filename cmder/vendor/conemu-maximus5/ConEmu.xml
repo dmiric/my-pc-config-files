@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2025-06-22 20:46:08" build="230724">
+		<key name=".Vanilla" modified="2025-06-23 16:46:55" build="230724">
 			<value name="ColorTable00" type="dword" data="001e1d1b"/>
 			<value name="ColorTable01" type="dword" data="00d28b26"/>
 			<value name="ColorTable02" type="dword" data="0014b482"/>
@@ -124,11 +124,11 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="00000066"/>
-			<value name="ConWnd Height" type="dword" data="00000043"/>
+			<value name="ConWnd Width" type="dword" data="0000004a"/>
+			<value name="ConWnd Height" type="dword" data="00000026"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="long" data="1178"/>
-			<value name="ConWnd Y" type="long" data="4"/>
+			<value name="ConWnd X" type="long" data="1377"/>
+			<value name="ConWnd Y" type="long" data="40"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
@@ -522,26 +522,26 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Flags" type="dword" data="00000001"/>
 				</key>
-				<key name="Task5" modified="2025-06-22 10:08:17" build="230724">
+				<key name="Task5" modified="2025-06-23 16:37:36" build="230724">
 					<value name="Name" type="string" data="{PriceMice::Mobile}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="0012114d"/>
 					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
-					<value name="Cmd1" type="string" data='"C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit Set-Location &apos;&apos;C:\Projects\pricemice_python\PriceMiceApp&apos;&apos;; C:\Users\admin\set-term-pid.ps1 -tname "pricemice-mobile-react-server"; npm start&apos;" '/>
+					<value name="Cmd1" type="string" data='"C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit -Command "Set-Location &apos;C:\Projects\pricemice_python\PriceMiceApp&apos;; &amp; &apos;C:\Users\admin\set-term-pid.ps1&apos; -tname ""`pricemice-mobile-react-server""; npm start" -new_console:d:"C:\Projects\pricemice_python\PriceMiceApp"'/>
 					<value name="Active" type="long" data="2"/>
 					<value name="Count" type="long" data="2"/>
-					<value name="Cmd2" type="string" data='&gt; "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe"l -new_console:s50V -ExecutionPolicy Bypass -NoLogo -NoExit Set-Location &apos;&apos;C:\Projects\pricemice_python\PriceMiceApp&apos;&apos;;  C:\Users\admin\set-term-pid.ps1 -tname "pricemice-mobile-freeterm"; code .; autohotkey ./ahk/position-emulator.ahk; npm run android&apos;"'/>
+					<value name="Cmd2" type="string" data='&gt; "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -new_console:s50V:d:"C:\Projects\pricemice_python\PriceMiceApp" -ExecutionPolicy Bypass -NoLogo -NoExit -Command "Set-Location &apos;C:\Projects\pricemice_python\PriceMiceApp&apos;; &amp; &apos;C:\Users\admin\set-term-pid.ps1&apos; -tname ""`pricemice-mobile-freeterm""; code .; &amp; &apos;C:\Program Files\AutoHotkey1\AutoHotkey.exe&apos; &apos;.\ahk\position-emulator.ahk&apos;; npm run android"'/>
 				</key>
-				<key name="Task6" modified="2025-06-22 10:08:17" build="230724">
+				<key name="Task6" modified="2025-06-23 16:34:51" build="230724">
 					<value name="Name" type="string" data="{PriceMice::Back}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00121142"/>
 					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
-					<value name="Cmd1" type="string" data='"C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit code .; make logs-tail&apos;" -new_console:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
-					<value name="Active" type="long" data="3"/>
+					<value name="Cmd1" type="string" data='"C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit -Command "code .; make logs-tail" -new_console:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
+					<value name="Active" type="long" data="2"/>
 					<value name="Count" type="long" data="3"/>
-					<value name="Cmd2" type="string" data='&gt; "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit C:\Users\admin\set-term-pid.ps1 -tname "pricemice-backend-ps" &apos;" -new_console:s80V:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
-					<value name="Cmd3" type="string" data='&gt; "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit C:\Users\admin\set-term-pid.ps1 -tname "pricemice-backend-server"; make pgtunnel&apos;" -new_console:s50V:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
+					<value name="Cmd2" type="string" data='&gt; "C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit -Command "&amp; &apos;C:\Users\admin\set-term-pid.ps1&apos; -tname ""`pricemice-backend-ps""" -new_console:s80V:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
+					<value name="Cmd3" type="string" data='"C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.1.0_x64__8wekyb3d8bbwe\pwsh.exe" -ExecutionPolicy Bypass -NoLogo -NoExit -Command "&amp; &apos;C:\Users\admin\set-term-pid.ps1&apos; -tname ""`pricemice-backend-server""; make pgtunnel" -new_console:s50V:d:"C:\Projects\pricemice_python\cijene-api-clone"'/>
 				</key>
 				<key name="Task7" modified="2025-06-13 11:13:55" build="230724">
 					<value name="Name" type="string" data="{bash::mintty as Admin}"/>
