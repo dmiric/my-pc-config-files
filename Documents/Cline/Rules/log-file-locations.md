@@ -7,7 +7,7 @@ reference.
 
 - **Terminal Logs:** All terminal output log files are located in
   `C:\temp\term-logs`. Files are named `ConEmu-YYYY-MM-DD-pPID.log`, where `PID`
-  is the process ID of the terminal.
+  is the process ID of the terminal. Find a file that ends with pid like this dir C:\temp\term-logs\*p35892.log use only dir command and then open it.
 
 ## Log File Management
 
