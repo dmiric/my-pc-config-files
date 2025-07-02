@@ -7,7 +7,8 @@ reference.
 
 - **Terminal Logs:** All terminal output log files are located in
   `C:\temp\term-logs`. Files are named `ConEmu-YYYY-MM-DD-pPID.log`, where `PID`
-  is the process ID of the terminal. Find a file that ends with pid like this dir C:\temp\term-logs\*p35892.log use only dir command and then open it.
+  is the process ID of the terminal. Find a file that ends with pid like this
+  dir C:\temp\term-logs\*p35892.log use only dir command and then open it.
 
 ## Log File Management
 
@@ -40,7 +41,8 @@ with "read terminal" and "read server terminal" respectively.
 
 pricemice-mobile-react-server - this terminal you can read if project we are
 working on is C:\Projects\pricemice_python\PriceMiceApp and I ask you to read
-server terminal. This log file also contains JavaScript console logs from the
-React Native application. pricemice-mobile-freeterm - this terminal you can read
-if project we are working on is C:\Projects\pricemice_python\PriceMiceApp and I
-ask you to read terminal.
+server terminal. This log file is specifically named `react-native.log` and is
+located in `C:\temp\term-logs`. It also contains JavaScript console logs from
+the React Native application. pricemice-mobile-freeterm - this terminal you can
+read if project we are working on is C:\Projects\pricemice_python\PriceMiceApp
+and I ask you to read terminal.
