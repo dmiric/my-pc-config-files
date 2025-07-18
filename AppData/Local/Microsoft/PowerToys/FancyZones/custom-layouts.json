@@ -59,7 +59,7 @@
           ]
         ],
         "show-spacing": false,
-        "spacing": -10,
+        "spacing": 0,
         "sensitivity-radius": 0
       }
     },
@@ -81,9 +81,39 @@
             0
           ]
         ],
-        "show-spacing": true,
+        "show-spacing": false,
         "spacing": 16,
         "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{343E5760-9A86-4272-8735-41BEED920663}",
+      "name": "Custom layout 1",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [
+          5223,
+          4777
+        ],
+        "columns-percentage": [
+          4827,
+          5173
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "show-spacing": false,
+        "spacing": 0,
+        "sensitivity-radius": 30
       }
     }
   ]
