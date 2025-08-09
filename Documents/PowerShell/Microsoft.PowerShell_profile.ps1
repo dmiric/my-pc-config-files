@@ -97,3 +97,8 @@ if ($paneTitle -match "PriceMice Dev Pane 1") {
 if ($paneTitle -match "PriceMice Dev Pane 2") {
     task remote:ssh-tail
 }
+
+if ($paneTitle -match "PriceMice Dev") {
+    task remote:ssh
+    wt split-pane -H -s 0.2 -d "C:\Projects\pricemice_python\cijene-api-clone\" --title "PriceMice Dev Pane 2" -- pwsh.exe -NoExit
+}
