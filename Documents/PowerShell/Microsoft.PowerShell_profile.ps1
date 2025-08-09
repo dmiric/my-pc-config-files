@@ -83,3 +83,17 @@ function config {
         git @baseGitArgs $Arguments
     }
 }
+
+
+# In $PROFILE
+
+# Get the current WT pane title
+$paneTitle = $Host.UI.RawUI.WindowTitle
+
+if ($paneTitle -match "PriceMice Dev Pane 1") {
+    task remote:ssh
+}
+
+if ($paneTitle -match "PriceMice Dev Pane 2") {
+    task remote:ssh-tail
+}
