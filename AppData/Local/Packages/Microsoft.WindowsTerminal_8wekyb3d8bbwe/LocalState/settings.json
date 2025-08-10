@@ -1,0 +1,235 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "confirmCloseAllTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+    "firstWindowPreference": "defaultProfile",
+    "focusFollowMouse": true,
+    "keybindings": [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "launchMode": "maximized",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "startingDirectory": "C:\\"
+        },
+        "list": [
+            {
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "autoMarkPrompts": true,
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "experimental.rightClickContextMenu": true,
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{df70ea9f-8edf-5dbd-a6f0-62d095cbf38a}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{4042e0a4-ba66-56e3-aad8-0e994d440364}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{9f506572-5826-5384-8b22-d6a9a3e87ec6}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": true,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{5d63f7bd-69a9-542a-94dc-9440774fc6c6}",
+                "hidden": false,
+                "name": "docker-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{e8334ecc-b28b-5b01-96be-555b833c4957}",
+                "hidden": false,
+                "name": "docker-desktop-data",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{2dfbd0f9-93d1-5b16-a588-b7868bed30f5}",
+                "hidden": false,
+                "name": "docker-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{859215c4-2719-5863-99d0-1632a58fd8ce}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2d8ab522-fe74-5e2d-9953-b7a62b1037ed}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{c93854bd-bf2c-5377-a5d7-2d40afaf8ab6}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{6bb53bca-9a3f-5fc1-a081-69587bc4ca74}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "backgroundImage": "desktopWallpaper",
+                "backgroundImageOpacity": 0.05,
+                "experimental.retroTerminalEffect": false,
+                "font": {
+                    "size": 11
+                },
+                "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+                "hidden": false,
+                "name": "PowerShell7",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "wt -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 1\" pwsh.exe -NoExit ; split-pane -H -s 0.2 -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 2\" pwsh.exe -NoExit",
+                "guid": "{a1b2c3d4-e5f6-7890-1234-567890abcdef}",
+                "icon": "none",
+                "name": "Pricemice Dev",
+                "tabTitle": "PriceMice Dev",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{f8d1c5d3-9c86-4a64-9293-19a9f23eabc1}", // Use your own unique GUID
+                "name": "Pricemice App",
+                "icon": "none",
+                "startingDirectory": "C:\\Projects\\pricemice_python\\PriceMiceApp",
+                "commandline": "wt -w 0 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"React Server\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-react-with-log.ps1\" ; split-pane -H -s 0.5 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Mobile/AHK\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-mobile-and-ahk.ps1\" ; split-pane -V -s 0.3 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Log Cleaner\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -Command \"node .\\ahk\\clean-terminal-log.js\""
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Night3024",
+            "black": "#090300",
+            "red": "#db2d20",
+            "green": "#01a252",
+            "yellow": "#fded02",
+            "blue": "#01a0e4",
+            "purple": "#a16a94",
+            "cyan": "#b5e4f4",
+            "white": "#a5a2a2",
+            "brightBlack": "#5c5855",
+            "brightRed": "#e8bbd0",
+            "brightGreen": "#3a3432",
+            "brightYellow": "#4a4543",
+            "brightBlue": "#807d7c",
+            "brightPurple": "#d6d5d4",
+            "brightCyan": "#cdab53",
+            "brightWhite": "#f7f7f7",
+            "background": "#090300",
+            "foreground": "#a5a2a2",
+            "selectionBackground": "#4a4543",
+            "cursorColor": "#a5a2a2"
+        }
+    ],
+    "theme": "chonk",
+    "themes": [
+        {
+            "name": "chonk",
+            "tab": {
+                "background": "#00000000",
+                "iconStyle": "default",
+                "showCloseButton": "hover",
+                "unfocusedBackground": "#00000000"
+            },
+            "tabRow": {
+                "background": "#00000000",
+                "unfocusedBackground": "#00000000"
+            },
+            "window": {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": true
+            }
+        }
+    ],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useAnyExisting"
+}
