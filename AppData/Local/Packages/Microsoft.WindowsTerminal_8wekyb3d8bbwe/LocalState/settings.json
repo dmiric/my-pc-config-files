@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -14,16 +16,17 @@
             "id": "User.paste"
         },
         {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         }
     ],
     "confirmCloseAllTabs": false,
@@ -32,18 +35,19 @@
     "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
     "firstWindowPreference": "defaultProfile",
     "focusFollowMouse": true,
-    "keybindings": [
+    "keybindings": 
+    [
         {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
         {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "User.paste",
             "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "User.splitPane.A6751878",
@@ -51,16 +55,20 @@
         }
     ],
     "launchMode": "maximized",
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "startingDirectory": "C:\\"
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -157,7 +165,8 @@
                 "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.05,
                 "experimental.retroTerminalEffect": false,
-                "font": {
+                "font": 
+                {
                     "size": 11
                 },
                 "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
@@ -166,7 +175,7 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "commandline": "wt -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 1\" pwsh.exe -NoExit ; split-pane -H -s 0.2 -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 2\" pwsh.exe -NoExit",
+                "commandline": "wt.exe new-tab -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 1\" pwsh.exe -NoExit ; split-pane -H -s 0.2 -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"PriceMice Dev Pane 2\" pwsh.exe -NoExit ; new-tab -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"API Code\" pwsh.exe -NoExit ; split-pane -H -s 0.2 -d \"C:\\Projects\\pricemice_python\\cijene-api-clone\" --title \"API Logs\" pwsh.exe -NoExit -File \".\\scripts\\clear_api_logs_watch.ps1\"",
                 "guid": "{a1b2c3d4-e5f6-7890-1234-567890abcdef}",
                 "icon": "none",
                 "name": "Pricemice Dev",
@@ -174,54 +183,65 @@
                 "useAcrylic": true
             },
             {
-                "guid": "{f8d1c5d3-9c86-4a64-9293-19a9f23eabc1}", // Use your own unique GUID
-                "name": "Pricemice App",
+                "commandline": "wt -w 0 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"React Server\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-react-with-log.ps1\" ; split-pane -H -s 0.5 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Mobile/AHK\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-mobile-and-ahk.ps1\" ; split-pane -V -s 0.3 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Log Cleaner\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -Command \"node .\\ahk\\clean-terminal-log.js\"",
+                "guid": "{f8d1c5d3-9c86-4a64-9293-19a9f23eabc1}",
                 "icon": "none",
-                "startingDirectory": "C:\\Projects\\pricemice_python\\PriceMiceApp",
-                "commandline": "wt -w 0 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"React Server\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-react-with-log.ps1\" ; split-pane -H -s 0.5 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Mobile/AHK\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -File \"C:\\Projects\\pricemice_python\\PriceMiceApp\\scripts\\start-mobile-and-ahk.ps1\" ; split-pane -V -s 0.3 -d \"C:\\Projects\\pricemice_python\\PriceMiceApp\" --title \"Log Cleaner\" pwsh.exe -NoExit -NoLogo -ExecutionPolicy Bypass -Command \"node .\\ahk\\clean-terminal-log.js\""
+                "name": "Pricemice App",
+                "startingDirectory": "C:\\Projects\\pricemice_python\\PriceMiceApp"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
-            "name": "Night3024",
-            "black": "#090300",
-            "red": "#db2d20",
-            "green": "#01a252",
-            "yellow": "#fded02",
-            "blue": "#01a0e4",
-            "purple": "#a16a94",
-            "cyan": "#b5e4f4",
-            "white": "#a5a2a2",
-            "brightBlack": "#5c5855",
-            "brightRed": "#e8bbd0",
-            "brightGreen": "#3a3432",
-            "brightYellow": "#4a4543",
-            "brightBlue": "#807d7c",
-            "brightPurple": "#d6d5d4",
-            "brightCyan": "#cdab53",
-            "brightWhite": "#f7f7f7",
             "background": "#090300",
-            "foreground": "#a5a2a2",
-            "selectionBackground": "#4a4543",
-            "cursorColor": "#a5a2a2"
+            "black": "#090300",
+            "blue": "#01A0E4",
+            "brightBlack": "#5C5855",
+            "brightBlue": "#807D7C",
+            "brightCyan": "#CDAB53",
+            "brightGreen": "#3A3432",
+            "brightPurple": "#D6D5D4",
+            "brightRed": "#E8BBD0",
+            "brightWhite": "#F7F7F7",
+            "brightYellow": "#4A4543",
+            "cursorColor": "#A5A2A2",
+            "cyan": "#B5E4F4",
+            "foreground": "#A5A2A2",
+            "green": "#01A252",
+            "name": "Night3024",
+            "purple": "#A16A94",
+            "red": "#DB2D20",
+            "selectionBackground": "#4A4543",
+            "white": "#A5A2A2",
+            "yellow": "#FDED02"
         }
     ],
     "theme": "chonk",
-    "themes": [
+    "themes": 
+    [
         {
             "name": "chonk",
-            "tab": {
+            "tab": 
+            {
                 "background": "#00000000",
                 "iconStyle": "default",
                 "showCloseButton": "hover",
                 "unfocusedBackground": "#00000000"
             },
-            "tabRow": {
+            "tabRow": 
+            {
                 "background": "#00000000",
                 "unfocusedBackground": "#00000000"
             },
-            "window": {
+            "window": 
+            {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
