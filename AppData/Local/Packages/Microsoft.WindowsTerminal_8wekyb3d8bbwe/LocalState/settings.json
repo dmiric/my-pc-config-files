@@ -50,8 +50,16 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "id": null,
+            "keys": "ctrl+shift+p"
+        },
+        {
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "f1"
         }
     ],
     "launchMode": "maximized",
@@ -251,5 +259,5 @@
         }
     ],
     "useAcrylicInTabRow": true,
-    "windowingBehavior": "useAnyExisting"
+    "windowingBehavior": "useExisting"
 }
