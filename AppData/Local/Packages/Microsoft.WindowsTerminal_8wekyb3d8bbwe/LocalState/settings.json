@@ -73,7 +73,15 @@
     {
         "defaults": 
         {
-            "startingDirectory": "C:\\"
+            "backgroundImage": "desktopWallpaper",
+            "backgroundImageOpacity": 0.02,
+            "font": 
+            {
+                "size": 9
+            },
+            "padding": "2",
+            "startingDirectory": "C:\\",
+            "useAcrylic": false
         },
         "list": 
         [
