@@ -239,7 +239,8 @@
             "yellow": "#FDED02"
         }
     ],
-    "theme": "chonk",
+    "showTabsInTitlebar": true,
+    "theme": "legacyDark",
     "themes": 
     [
         {
@@ -266,6 +267,6 @@
             }
         }
     ],
-    "useAcrylicInTabRow": true,
+    "useAcrylicInTabRow": false,
     "windowingBehavior": "useExisting"
 }

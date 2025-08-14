@@ -1,5 +1,0 @@
-Install-Module VirtualDesktop
-Install-Module -Name VirtualDesktop
-Install-PSResource -Name VirtualDesktop
-Get-InstalledPSResource
-Find-Module -Name PowerShellGet | Install-Module

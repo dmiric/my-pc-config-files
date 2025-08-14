@@ -1,9 +1,6 @@
 Import-Module -Name Microsoft.WinGet.CommandNotFound
 # f45873b3-b655-43a6-b217-97c00aa0db58
 
-# Load Cmder profile for all PowerShell sessions
-Import-Module 'C:\Users\admin\cmder\vendor\profile.ps1'
-
 $env:PATH = "$env:USERPROFILE\util;" + $env:PATH
 
 # Custom function for managing dotfiles with a bare git repo.
@@ -85,8 +82,6 @@ function config {
 }
 
 
-# In $PROFILE
-
 # Get the current WT pane title
 $paneTitle = $Host.UI.RawUI.WindowTitle
 
@@ -101,4 +96,18 @@ if ($paneTitle -match "PriceMice Dev Pane 2") {
 if ($paneTitle -match "PriceMice Dev") {
     task remote:ssh
     wt split-pane -H -s 0.2 -d "C:\Projects\pricemice_python\cijene-api-clone\" --title "PriceMice Dev Pane 2" -- pwsh.exe -NoExit
+}
+
+# set arrow up down autocomplete in shell
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# My custom alias for listing only files
+function l {
+    Get-ChildItem -File -Name
+}
+
+# My custom alias for listing all files and directories (including hidden)
+function la {
+    Get-ChildItem -Force -Name
 }
