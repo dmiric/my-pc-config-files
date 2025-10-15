@@ -16,6 +16,10 @@
             "id": "User.paste"
         },
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -23,13 +27,8 @@
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
         }
     ],
-    "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
@@ -42,20 +41,20 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
             "id": "User.find",
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+p"
+            "id": "User.paste",
+            "keys": "ctrl+v"
         },
         {
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+p"
         },
         {
             "id": "Terminal.ToggleCommandPalette",
@@ -94,10 +93,10 @@
             {
                 "autoMarkPrompts": true,
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "experimental.rightClickContextMenu": true,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "rightClickContextMenu": true
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -268,5 +267,6 @@
         }
     ],
     "useAcrylicInTabRow": false,
+    "warning.confirmCloseAllTabs": false,
     "windowingBehavior": "useExisting"
 }
