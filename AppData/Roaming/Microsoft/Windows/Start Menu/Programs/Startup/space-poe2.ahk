@@ -3,10 +3,10 @@
 #HotIf WinActive("ahk_exe PathOfExileSteam.exe")
 
 ; --- Spacebar functionality ---
-;$*Space:: {
-;    Send("{Blind}{Space}")
-;   KeyWait("Space")
-;}
+$*Space:: {
+    Send("{Blind}{Space}")
+    KeyWait("Space")
+}
 
 ; --- Scroll Wheel Up presses E ---
 ; WheelUp::Send("e")
@@ -74,19 +74,19 @@ TabletsHandler(ItemName, ItemPos, MyMenu) {
     switch ItemPos {
         case 1: SendText '"gold found"'
         case 2: SendText '"al ro"'
-        case 3: SendText '(1[5-9]|2.)%.+exp'
-        case 4: SendText '(9|1.)%.+ef'
-        case 5: SendText '(2[2-9]|30)%.+rari'
-        case 6: SendText '(8|9|10)%.+pa'
-        case 7: SendText '(6.|70)%.+ma'
-        case 8: SendText '(3[3-9]|40)%.+rare'
-        case 9: SendText '(2[5-9]|30)%.+red|t (2[5-9]|30)%.+sed t|al ti'
-        case 10: SendText '(2[5-9]|30)%.+qua|[1|2].+re mo|al bre'
-        case 11: SendText '(2[5-9]|30)%.+qua'
-        case 12: SendText 'ur ad|ed fro'
-        case 13: SendText '(2[1-9]|30)%.+logbooks'
-        case 14: SendText '(2[1-9]|30)%.+um splin|(2[1-9]|30)%.+awn uni'
-        case 15: SendText '(4[1-9]|50)%.+waystones'
+        case 3: SendText '"(1[5-9]|2.)%.+exp"'
+        case 4: SendText '"(9|1.)%.+ef"'
+        case 5: SendText '"(2[2-9]|30)%.+rari"'
+        case 6: SendText '"(8|9|10)%.+pa"'
+        case 7: SendText '"(6.|70)%.+ma"'
+        case 8: SendText '"(3[3-9]|40)%.+rare"'
+        case 9: SendText '"(2[5-9]|30)%.+red|t (2[5-9]|30)%.+sed t|al ti"'
+        case 10: SendText '"(2[5-9]|30)%.+qua|[1|2].+re mo|al bre"'
+        case 11: SendText '"(2[5-9]|30)%.+qua"'
+        case 12: SendText '"ur ad|ed fro"'
+        case 13: SendText '"(2[1-9]|30)%.+logbooks"'
+        case 14: SendText '"(2[1-9]|30)%.+um splin|(2[1-9]|30)%.+awn uni"'
+        case 15: SendText '"(4[1-9]|50)%.+waystones"'
     }
 }
 
