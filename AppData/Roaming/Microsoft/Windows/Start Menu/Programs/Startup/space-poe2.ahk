@@ -3,10 +3,10 @@
 #HotIf WinActive("ahk_exe PathOfExileSteam.exe")
 
 ; --- Spacebar functionality ---
-$*Space:: {
-    Send("{Blind}{Space}")
-    KeyWait("Space")
-}
+; $*Space:: {
+;    Send("{Blind}{Space}")
+;    KeyWait("Space")
+;}
 
 ; --- Scroll Wheel Up presses E ---
 ; WheelUp::Send("e")
